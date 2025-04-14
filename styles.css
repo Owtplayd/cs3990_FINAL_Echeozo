@@ -1,82 +1,83 @@
 /* Main application styling */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
 }
 
 /* App container */
 #app {
-    max-width: 800px;
-    margin: 0 auto;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Color panel styling */
 #colorPanel {
-    background-color: #f8e0b0;
-    padding: 15px;
-    margin-bottom: 0;
-    border-bottom: 1px solid #e0c890;
+  background-color: #f8e0b0;
+  padding: 15px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #e0c890;
 }
 
 #colorPanel h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 18px;
-    color: #333;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
 }
 
 /* Fruit description section */
 #fruitDesc {
-    background-color: #8fecc0;
-    padding: 15px;
-    min-height: 50px;
+  background-color: #8fecc0;
+  padding: 15px;
+  min-height: 50px;
 }
 
 /* Fruit item styling */
 .fruit-item {
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .fruit-item:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
+  border-bottom: none;
+  margin-bottom: 0;
 }
 
 .fruit-item h2 {
-    margin-top: 0;
-    margin-bottom: 15px;
-    color: #333;
-    font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 22px;
 }
 
 .fruit-item p {
-    line-height: 1.5;
-    color: #444;
-    margin-top: 10px;
+  line-height: 1.5;
+  color: #444;
+  margin-top: 10px;
+  font-size: 14px;
 }
 
 /* Fruit image styling */
 .fruit-image {
-    width: 50px;
-    height: auto;
-    margin: 10px 0;
-    display: block;
+  width: 50px;
+  height: auto;
+  margin: 10px 0;
+  display: block;
 }
 
 /* Button styling */
 button[data-color] {
-    transition: box-shadow 0.2s ease;
-    border-radius: 3px;
+  transition: box-shadow 0.2s ease;
+  border-radius: 3px;
 }
 
 button[data-color]:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
